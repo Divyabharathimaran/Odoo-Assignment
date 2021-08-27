@@ -1,0 +1,13 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_course_detail,course.detail.user,courses.model_course_detail,group_course_user,1,0,0,0
+access_course_detail_manager,course.detail.manager,courses.model_course_detail,group_course_manager,1,1,1,1
+access_course_line,course.line.user,courses.model_course_line,group_course_user,1,0,0,0
+access_course_line_manager,course.line.manager,courses.model_course_line,group_course_manager,1,1,1,1
+access_course_lesson,course.lesson.user,courses.model_course_lesson,group_course_user,1,0,0,0
+access_course_lesson_manager,course.lesson.manager,courses.model_course_lesson,group_course_manager,1,1,1,1
+access_course_lesson_line,course.lesson.line.user,courses.model_course_lesson_line,group_course_user,1,0,0,0
+access_course_lesson_line_manager,course.lesson.line.manager,courses.model_course_lesson_line,group_course_manager,1,1,1,1
+access_course_room,course.room.user,courses.model_course_room,group_course_user,1,0,0,0
+access_course_room_manager,course.room.manager,courses.model_course_room,group_course_manager,1,1,1,1
+access_attendee_line,attendee.line.user,courses.model_attendee_line,group_course_user,1,0,0,0
+access_attendee_line_manager,attendee.line.manager,courses.model_attendee_line,group_course_manager,1,1,1,1
